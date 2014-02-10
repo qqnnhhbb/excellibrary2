@@ -1,0 +1,10 @@
+D:\Work\excellibrary\src\ExcelLibrary.WinForm\bin\Release\ExcelLibrary.WinForm.exe
+D:\Work\excellibrary\src\ExcelLibrary.WinForm\bin\Release\ExcelLibrary.WinForm.pdb
+D:\Work\excellibrary\src\ExcelLibrary.WinForm\bin\Release\ExcelLibrary.dll
+D:\Work\excellibrary\src\ExcelLibrary.WinForm\bin\Release\ExcelLibrary.pdb
+D:\Work\excellibrary\src\ExcelLibrary.WinForm\obj\Release\ExcelLibrary.WinForm.csprojResolveAssemblyReference.cache
+D:\Work\excellibrary\src\ExcelLibrary.WinForm\obj\Release\ExcelLibrary.WinForm.Form1.resources
+D:\Work\excellibrary\src\ExcelLibrary.WinForm\obj\Release\ExcelLibrary.WinForm.Properties.Resources.resources
+D:\Work\excellibrary\src\ExcelLibrary.WinForm\obj\Release\ExcelLibrary.WinForm.csproj.GenerateResource.Cache
+D:\Work\excellibrary\src\ExcelLibrary.WinForm\obj\Release\ExcelLibrary.WinForm.exe
+D:\Work\excellibrary\src\ExcelLibrary.WinForm\obj\Release\ExcelLibrary.WinForm.pdb

@@ -1,0 +1,4 @@
+D:\Work\excellibrary\src\ExcelLibrary\bin\Release\ExcelLibrary.dll
+D:\Work\excellibrary\src\ExcelLibrary\bin\Release\ExcelLibrary.pdb
+D:\Work\excellibrary\src\ExcelLibrary\obj\Release\ExcelLibrary.dll
+D:\Work\excellibrary\src\ExcelLibrary\obj\Release\ExcelLibrary.pdb
