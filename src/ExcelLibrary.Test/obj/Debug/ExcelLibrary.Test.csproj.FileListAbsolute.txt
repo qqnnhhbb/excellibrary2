@@ -1,0 +1,8 @@
+D:\Work\excellibrary\src\ExcelLibrary.Test\bin\Debug\ExcelLibrary.Test.dll
+D:\Work\excellibrary\src\ExcelLibrary.Test\bin\Debug\ExcelLibrary.Test.pdb
+D:\Work\excellibrary\src\ExcelLibrary.Test\bin\Debug\ExcelLibrary.dll
+D:\Work\excellibrary\src\ExcelLibrary.Test\bin\Debug\nunit.framework.dll
+D:\Work\excellibrary\src\ExcelLibrary.Test\bin\Debug\ExcelLibrary.pdb
+D:\Work\excellibrary\src\ExcelLibrary.Test\obj\Debug\ExcelLibrary.Test.csprojResolveAssemblyReference.cache
+D:\Work\excellibrary\src\ExcelLibrary.Test\obj\Debug\ExcelLibrary.Test.dll
+D:\Work\excellibrary\src\ExcelLibrary.Test\obj\Debug\ExcelLibrary.Test.pdb

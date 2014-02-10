@@ -1,0 +1,9 @@
+D:\Work\excellibrary\src\ExcelLibrary.Tool\bin\Debug\ExcelLibrary.Tool.exe
+D:\Work\excellibrary\src\ExcelLibrary.Tool\bin\Debug\ExcelLibrary.Tool.pdb
+D:\Work\excellibrary\src\ExcelLibrary.Tool\obj\Debug\ExcelLibrary.Tool.MainForm.resources
+D:\Work\excellibrary\src\ExcelLibrary.Tool\obj\Debug\ExcelLibrary.Tool.Properties.Resources.resources
+D:\Work\excellibrary\src\ExcelLibrary.Tool\obj\Debug\QiHe.CodeLib.FileBrower.resources
+D:\Work\excellibrary\src\ExcelLibrary.Tool\obj\Debug\QiHe.CodeLib.FolderBrowser.resources
+D:\Work\excellibrary\src\ExcelLibrary.Tool\obj\Debug\ExcelLibrary.Tool.csproj.GenerateResource.Cache
+D:\Work\excellibrary\src\ExcelLibrary.Tool\obj\Debug\ExcelLibrary.Tool.exe
+D:\Work\excellibrary\src\ExcelLibrary.Tool\obj\Debug\ExcelLibrary.Tool.pdb
