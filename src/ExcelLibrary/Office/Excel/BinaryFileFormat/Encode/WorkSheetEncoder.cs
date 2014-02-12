@@ -36,6 +36,27 @@ namespace ExcelLibrary.BinaryFileFormat
             window2.NotUsed2 = 0;
             records.Add(window2);
 
+            if (worksheet.Cells.Rows.Count > 0)
+            {
+                //Column wise
+                for (int i = 0; i < worksheet.Cells.LastRowIndex + 1; i++)
+                {
+                    for (int j = worksheet.Cells.LastColIndex + 1; j < 26; j++)
+                    {
+                        worksheet.Cells[i, j] = new Cell(" ");
+                    }
+                }
+
+                //Row wise
+                for (int i = worksheet.Cells.LastRowIndex + 1; i < 11; i++)
+                {
+                    for (int j = 0; j < 26; j++)
+                    {
+                        worksheet.Cells[i, j] = new Cell(" ");
+                    }
+                }
+            }
+
             foreach (KeyValuePair<Pair<UInt16, UInt16>, UInt16> colWidth in worksheet.Cells.ColumnWidth)
             {
                 COLINFO colInfo = new COLINFO();
