@@ -36,7 +36,7 @@ namespace ExcelLibrary.BinaryFileFormat
             window2.NotUsed2 = 0;
             records.Add(window2);
 
-            if (worksheet.Cells.Rows.Count > 0)
+            /*if (worksheet.Cells.Rows.Count > 0)
             {
                 //Column wise
                 for (int i = 0; i < worksheet.Cells.LastRowIndex + 1; i++)
@@ -55,7 +55,7 @@ namespace ExcelLibrary.BinaryFileFormat
                         worksheet.Cells[i, j] = new Cell(" ");
                     }
                 }
-            }
+            }*/
 
             foreach (KeyValuePair<Pair<UInt16, UInt16>, UInt16> colWidth in worksheet.Cells.ColumnWidth)
             {
