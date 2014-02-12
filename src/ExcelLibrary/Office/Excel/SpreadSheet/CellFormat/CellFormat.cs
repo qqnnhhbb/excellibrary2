@@ -8,6 +8,13 @@ namespace ExcelLibrary.SpreadSheet
     {
         private CellFormatType formatType;
         private string formatString;
+        private bool hasBorder;
+
+        public CellFormat()
+        {
+            formatType = General.FormatType;
+            formatString = General.FormatString;
+        }
 
         public CellFormat(CellFormatType type, string fmt)
         {
@@ -24,6 +31,12 @@ namespace ExcelLibrary.SpreadSheet
         {
             get { return formatString; }
             set { formatString = value; }
+        }
+
+        public bool HasBorder
+        {
+            get { return hasBorder; }
+            set { hasBorder = value; }
         }
 
         /// <summary>

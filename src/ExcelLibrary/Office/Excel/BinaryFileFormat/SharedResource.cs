@@ -89,14 +89,27 @@ namespace ExcelLibrary.BinaryFileFormat
             return days;
         }
 
-        Dictionary<string, int> NumberFormatXFIndice = new Dictionary<string, int>();
+        private class CellFormatComparer : IEqualityComparer<CellFormat>
+        {
+            public bool Equals(CellFormat x, CellFormat y)
+            {
+                return x.FormatString == y.FormatString && x.FormatType == y.FormatType && x.HasBorder == y.HasBorder;
+            }
+
+            public int GetHashCode(CellFormat obj)
+            {
+                return obj.FormatString.GetHashCode() + obj.FormatType.GetHashCode() + obj.HasBorder.GetHashCode();
+            }
+        }
+
+        Dictionary<CellFormat, int> NumberFormatXFIndice = new Dictionary<CellFormat, int>(new CellFormatComparer());
         ushort MaxNumberFormatIndex;
         internal int GetXFIndex(CellFormat cellFormat)
         {
             string formatString = cellFormat.FormatString;
-            if (NumberFormatXFIndice.ContainsKey(formatString))
+            if (NumberFormatXFIndice.ContainsKey(cellFormat))
             {
-                return NumberFormatXFIndice[formatString];
+                return NumberFormatXFIndice[cellFormat];
             }
             else
             {
@@ -118,10 +131,12 @@ namespace ExcelLibrary.BinaryFileFormat
                 xf.PatternBackgroundColorIndex = 130;
                 xf.FontIndex = 0;
                 xf.FormatIndex = formatIndex;
+                xf.LineStyle = cellFormat.HasBorder ? 0x1111 : xf.LineStyle; // All border using black color (0x1111)
+
                 ExtendedFormats.Add(xf);
 
                 int numberFormatXFIndex = ExtendedFormats.Count - 1;
-                NumberFormatXFIndice.Add(formatString, numberFormatXFIndex);
+                NumberFormatXFIndice.Add(cellFormat, numberFormatXFIndex);
 
                 return numberFormatXFIndex;
             }
